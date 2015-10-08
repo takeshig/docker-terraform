@@ -4,7 +4,7 @@ MAINTAINER Shigeyuki Takeuchi
 ENV TERRAFORM_VERSION=0.6.3
 
 RUN apt-get update \
-	&& apt-get install -y unzip curl ca-certificates \
+	&& apt-get install -y unzip curl ca-certificates libcurl4-openssl-dev \
 	&& rm -rf /var/lib/apt/lists/* \
 	&& mkdir -p /tmp/terraform \
     && cd /tmp/terraform \
