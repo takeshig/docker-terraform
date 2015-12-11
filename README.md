@@ -3,5 +3,5 @@
 ## Included
 
 * Terraform
- * 0.6.3
+ * 0.6.8
 
