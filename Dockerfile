@@ -1,7 +1,7 @@
 FROM debian:jessie
 MAINTAINER Shigeyuki Takeuchi
 
-ENV TERRAFORM_VERSION=0.6.3
+ENV TERRAFORM_VERSION=0.6.8
 
 RUN apt-get update \
 	&& apt-get install -y unzip curl ca-certificates libcurl4-openssl-dev \
